@@ -1,0 +1,203 @@
+body {
+    background: #264653;
+    overflow-x: hidden;
+}
+.theme--light.v-application {
+    background: #264653;
+    color: #FFFFFF !important;
+    /* color: rgba(0, 0, 0, 0.87); */
+}
+div#loader {
+    float: left;
+    width: 100%;
+}
+.v-toolbar__title a {
+    padding-top: 8px;
+    display: inline-block;
+    color: #FFFFFF !important;
+}
+.v-toolbar__items.menu-items {
+    margin-left: 60px;
+}
+.menu-items a {
+    color: #FFFFFF !important;
+    text-decoration: none ;
+}
+button.dropdownmenu-btn {
+    color: #FFFFFF !important;
+}
+.v-list.dropdown-menu .v-list-item {
+    /* min-height: 22px; */
+    min-height: 30px;
+}
+.v-list.dropdown-menu .v-list-item:hover {
+    background: #eaeaea;
+}
+.v-list.dropdown-menu .v-list-item a {
+    color: #264653;
+    font-size: 14px;
+    text-decoration: none;
+}
+.v-input.top-searchbar .v-input__slot {
+    margin-bottom: 0px;
+}
+.v-input.top-searchbar .v-messages {
+    min-height: 0px;
+}
+.v-input.top-searchbar .v-text-field__details {
+    min-height: 0px;
+    margin-bottom: 0px;
+}
+.v-text-field.v-text-field--solo .v-input__control {
+    min-height: 32px;
+    padding: 0;
+}
+.v-list.dropdown.v-sheet.v-sheet--tile.theme--light {
+    width: 200px;
+}
+.top-searchbar label.v-label.theme--light {
+    font-size: 14px;
+    color: #264653;
+}
+.top-searchbar .v-application .primary--text {
+    color: #264653 !important;
+    caret-color: #264653 !important;
+}
+.top-searchbar .v-text-field.v-text-field--enclosed .v-text-field__details {
+    margin-bottom: 0px;
+}
+.top-searchbar .v-text-field__details {
+    min-height: 0px;
+}
+.top-searchbar .v-messages {
+    min-height: 0px;
+}
+.top-searchbar .top-searchbar v-input__slot {
+    margin-bottom: 0px;
+}
+.top-searchbar .v-list-item__content .v-list-item__title {
+    font-size: 14px;
+}
+.top-searchbar .v-list-item {
+    min-height: 40px;
+}
+.top-searchbar .v-list-item__content {
+    padding: 0px 0px !important;
+}
+/* single movie */
+.single-movie-list {
+    float: left;
+    width: 100%;
+}
+.single-movie-list img {
+    width: 100%;
+}
+.single-movie-list img.movie-rating-img {
+    width: 14px;
+}
+.v-toolbar__title i.v-icon {
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 10px;
+    /* margin-top: -3px; */
+}
+.single-list-movie-title,
+.single-movie-list .single-list-movie-title,
+.single-movie-list .single-list-movie-title a {
+    margin: 5px 0px;
+    color: #ffc107;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+.single-movie-list .movie-genre ul {
+    list-style: none;
+    padding: 0px;
+}
+.single-movie-list .movie-genre ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+.single-movie-list .movie-genre p {
+    padding: 0px;
+    font-size: 12px;
+}
+.v-menu__content.theme--light.menuable__content__active.v-autocomplete__content {
+    width: 200px;
+}
+
+ul.movie-short-desc li {
+    font-size: 12px;
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+ul.movie-short-desc li:before {
+    position: absolute;
+    content: '|';
+    top: 0px;
+    right: 9px;
+}
+ul.movie-short-desc li:last-child:before {
+    content: '';
+}
+ul.movie-short-desc {
+    padding: 0px;
+}
+.ratings span {
+    vertical-align: text-bottom;
+}
+.description p {
+    font-size: 15px;
+}
+ul.filteredList {
+    padding: 0px;
+}
+ul.filteredList li {
+    list-style: none;
+    color: #FFFFFF;
+}
+ul.filteredList .v-input--checkbox {
+    margin: 0px;
+}
+ul.filteredList .v-input__slot {
+    margin-bottom: 6px;
+}
+ul.filteredList .v-messages {
+    min-height: 0px;
+}
+label.v-label.theme--light {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.theme--light.v-icon {
+    color: #FFFFFF;
+}
+
+/* filter */
+ul.movie-tag li {
+    font-size: 12px;
+    background: #FFFFFF;
+    display: inline-block;
+    color: #264653;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+ul.movie-tag {
+    padding: 0;
+    list-style: none;
+}
+.single-movie-list-btn {
+    background: transparent !important;
+    padding: 0px;
+}
+.single-movie-list-btn .v-list-item.theme--light {
+    display: inline-block;
+    padding: 0px;
+    margin-right: 10px;
+}
